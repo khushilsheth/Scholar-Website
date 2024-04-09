@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    background-color: #f0f0f8;
+    overflow-x: hidden;
+}
+
+.scholar-icon {
+    height: 6vh;
+}
+
+.text {
+    font-family: "Josefin Sans";
+}
+
+.header-dropdowns {
+    display: flex;
+    font-size: 2.2vh;
+    align-items: center;
+    justify-content: space-between;
+    border: solid 0.1vh #d4d4d4;
+    width: 9.5vw;
+    height: 5vh;
+    padding: 1vh;
+    box-sizing: border-box;
+}
+
+.header {
+    height: 6.5vh;
+    background-color: white;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 1vh 1vw;
+    margin-bottom: 3vh;
+}
+
+.selected-step {
+    position: relative;
+    background-color: #25bdea;
+    width: 70vw;
+    border-radius: 2.5vh;
+    padding: 0vh 2vw;
+    box-sizing: border-box;
+    height: 40vh;
+    box-shadow: 8px 8px 24px 0px rgba(0,0,0,0.12);
+}
+
+.selected-content {
+    background-color: white;
+    position: absolute;
+    width: 70vw;
+    top: 7vh;
+    left: 0;
+    padding: 0vh 2vw;
+    box-sizing: border-box;
+    height: 33vh;
+    border-radius: 0vh 0vh 2.5vh 2.5vh;
+}
+
+.selected-content-icon {
+    width: 3.5vh;
+}
+
+.option-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    column-gap: 2vh;
+    padding-bottom: 3vh;
+    border-bottom: solid 0.1vh black;
+}
+
+.option {
+    text-align: center;
+    padding: 2vh;
+    border-radius: 1.5vh;
+    background-color: #dedbf4;
+    color: #5C4AC7;
+    font-weight: 500;
+    font-size: 2.5vh;
+}
+
+.selected-option {
+    background-color: #5C4AC7;
+    color: white;
+}
+
+.selected-content-button {
+    font-size: 2vh;
+    border: none;
+    background-color: #5C4AC7;
+    color: white;
+    font-family: "Josefin Sans";
+    padding: 2vh 1vw;
+    border-radius: 2vh;
+}
+
+.step {
+    font-family: "Josefin Sans";
+    background-color: rgba(175, 175, 175, 0.2);
+    color: rgba(0, 0, 0, 0.6);
+    width: 70vw;
+    border-radius: 2.5vh;
+    padding: 2vh 2vw;
+    box-sizing: border-box;
+}
+
+.save-continue {
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: #5C4AC7;
+    color: white;
+    padding: 1vh 1vw;
+    font-size: 2vh;
+    font-family: "Inter";
+    border-radius: 1vh;
+    gap: 2vh;
+    margin-left: 58vw;
+}

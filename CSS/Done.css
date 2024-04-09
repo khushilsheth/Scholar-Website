@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+}
+
+.text {
+    font-family: "Josefin Sans";
+}
+
+.popup-container {
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup {
+    position: relative;
+    width: 50vw;
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2vh;
+    font-size: 2vh;
+    align-items: center;
+    background-color: white;
+    border-radius: 3vh;
+    text-align: center;
+}
